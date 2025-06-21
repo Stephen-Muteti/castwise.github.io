@@ -13925,7 +13925,16 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   background-image: url(../images/01_bg.jpeg);
   background-size: cover;
   background-position: center;
-  filter: blur(8px);
+/*   filter: blur(8px); */
+  z-index: 0;
+}
+
+/* Gradient overlay */
+.bg_banner-one::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(0,0,0,1.0) 0%, rgba(0,0,0,0.1) 100%);
   z-index: 0;
 }
 
