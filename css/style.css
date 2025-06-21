@@ -14191,6 +14191,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   animation: fadeInUp2 0.2s linear;
   animation-delay: 0.2s;
   opacity: 1;
+font-weight: var(--s-bold);
 }
 .banner-swiper-area-one .mySwiper-banner-one .swiper-slide.swiper-slide-active .banner-inner-content-one .title {
   animation: fadeInUp2 0.5s linear;
