@@ -17953,9 +17953,10 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 .single-team-single-area .inner-content-area .title {
   margin-bottom: 9px;
   transition: 0.3s;
+  cursor: default;
 }
 .single-team-single-area .inner-content-area .title:hover {
-  color: var(--color-primary);
+  color: var(--color-heading-1);
 }
 .single-team-single-area .inner-content-area .desig {
   color: var(--color-primary);
