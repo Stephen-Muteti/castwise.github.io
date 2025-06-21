@@ -13907,56 +13907,50 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   border-bottom: 1px solid #f1f1f1;
 }
 
-/* elements  */
+/* Remove background from here (no background-image anymore) */
 .bg_banner-one {
-  background-image: url(../images/01_bg.jpeg);
   height: 820px;
   max-width: 1820px;
   margin: auto;
   border-radius: 10px;
+  position: relative;
+  overflow: hidden;
 }
 
-.banner-area-one-start {
-    position: relative;
-    overflow: hidden;
+/* Pseudo-element to blur background */
+.bg_banner-one::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url(../images/01_bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: 0;
 }
 
-.banner-area-one-start::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image: url('images/02_bg.jpeg'); /* or dynamic based on class */
-    background-size: cover;
-    background-position: center;
-    filter: blur(8px);
-    z-index: 0;
+/* For second slide */
+.bg_banner-one.two::before {
+  background-image: url(../images/02_bg.jpeg);
 }
 
-.banner-area-one-start.two::before {
-    background-image: url('images/02_bg.jpeg');
+/* For third slide */
+.bg_banner-one.three::before {
+  background-image: url(../images/03_bg.jpeg);
 }
 
-.banner-area-one-start.three::before {
-    background-image: url('images/03_bg.jpeg');
-}
-
+/* Content on top */
 .banner-inner-content-one {
-    position: relative;
-    z-index: 1;
-    color: #fff; /* ensures text is readable */
+  position: relative;
+  z-index: 1;
+  color: #fff;
 }
 
+/* Responsive adjustment */
 @media only screen and (max-width: 767px) {
   .bg_banner-one {
     height: auto;
   }
-}
-.bg_banner-one.two {
-  background-image: url(../images/02_bg.jpeg);
-}
-.bg_banner-one.three {
-  background-image: url(../images/03_bg.jpeg);
-}
 
 .banner-area-one-start {
   display: flex;
