@@ -24431,6 +24431,15 @@ hr.history {
     align-items: flex-start;
     gap: 30px;
   }
+.single-choose-us-one .icon {
+	margin: auto;
+}
+.single-choose-us-one .title {
+	margin: auto;
+}
+.single-choose-us-one p.disc {
+	margin: auto;
+}
 }
 .rts-company-storyhear .timeline ul li {
   list-style-type: none;
