@@ -13915,6 +13915,37 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   margin: auto;
   border-radius: 10px;
 }
+
+.banner-area-one-start {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-area-one-start::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('images/02_bg.jpeg'); /* or dynamic based on class */
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: 0;
+}
+
+.banner-area-one-start.two::before {
+    background-image: url('images/02_bg.jpeg');
+}
+
+.banner-area-one-start.three::before {
+    background-image: url('images/03_bg.jpeg');
+}
+
+.banner-inner-content-one {
+    position: relative;
+    z-index: 1;
+    color: #fff; /* ensures text is readable */
+}
+
 @media only screen and (max-width: 767px) {
   .bg_banner-one {
     height: auto;
