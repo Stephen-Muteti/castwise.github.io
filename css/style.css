@@ -24441,6 +24441,15 @@ hr.history {
 .single-choose-us-one p.disc {
 	text-align: center;
 }
+
+.swiper-area-wrapper .swiper-button-prev {
+  left: -10px;
+}
+
+.swiper-area-wrapper .swiper-button-next {
+  right: -10px;
+}
+	
 }
 .rts-company-storyhear .timeline ul li {
   list-style-type: none;
