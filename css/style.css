@@ -24449,7 +24449,12 @@ hr.history {
 .swiper-area-wrapper .swiper-button-next {
   right: -10px;
 }
-	
+
+ .heder-one {
+    margin-top: 0px;
+    border-radius: unset;
+  }
+
 }
 .rts-company-storyhear .timeline ul li {
   list-style-type: none;
