@@ -24443,15 +24443,19 @@ hr.history {
 }
 
 .swiper-area-wrapper .swiper-button-prev {
-  left: -10px;
 height: 30px;
 width: 30px;
+border-radius: unset;
+position: absolute;
+left: 0px;
 }
 
 .swiper-area-wrapper .swiper-button-next {
-  right: -10px;
 height: 30px;
-width: 30px;
+width: 30px;	
+border-radius: unset;
+position: absolute;
+right: 0px;
 }
 
  .heder-one {
