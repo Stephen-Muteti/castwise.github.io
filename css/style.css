@@ -24443,11 +24443,11 @@ hr.history {
 }
 
 .swiper-area-wrapper .swiper-button-prev {
-height: 30px;
-width: 30px;
-border-radius: unset;
-position: absolute;
-left: 0px;
+	height: 30px;
+	width: 30px;
+	border-radius: unset;
+	position: absolute;
+	left: 0px;
 }
 
 .banner-swiper-area-one .swiper-paginations {
@@ -24455,14 +24455,19 @@ left: 0px;
 	display: flex;
 	flex-direction: row;
 	bottom: 0px;
+	height: 30px;
+	width: 30px;
+	opacity: 0.7;
+	font-weight: 400;
+	font-size: 13px;
 }
 
 .swiper-area-wrapper .swiper-button-next {
-height: 30px;
-width: 30px;	
-border-radius: unset;
-position: absolute;
-right: 0px;
+	height: 30px;
+	width: 30px;	
+	border-radius: unset;
+	position: absolute;
+	right: 0px;
 }
 
  .heder-one {
