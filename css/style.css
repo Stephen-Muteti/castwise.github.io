@@ -24457,6 +24457,16 @@ hr.history {
 	bottom: 0px;
 }
 
+.align-items-center{
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center-content{
+	align-text: center;
+}
+
 .banner-swiper-area-one .swiper-paginations .swiper-pagination-bullet {
 	height: 30px;
 	width: 30px;
