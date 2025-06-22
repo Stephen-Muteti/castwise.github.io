@@ -24450,6 +24450,13 @@ position: absolute;
 left: 0px;
 }
 
+.banner-swiper-area-one .swiper-paginations {
+	top: auto;
+	display: flex;
+	flex-direction: row;
+	bottom: 0px;
+}
+
 .swiper-area-wrapper .swiper-button-next {
 height: 30px;
 width: 30px;	
