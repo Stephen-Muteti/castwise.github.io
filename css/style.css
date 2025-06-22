@@ -24482,10 +24482,14 @@ hr.history {
 	position: absolute;
 	right: 0px;
 }
-	.bg_banner-one {
-		border-radius: unset;
-	}
+.bg_banner-one {
+	border-radius: unset;
+}
 
+.project-area-start-1 .inner-content-project .thumb-wrapper .single p{
+	font-weight: 400;
+  font-size: 13px;
+}
  .heder-one {
     margin-top: 0px;
     border-radius: unset;
