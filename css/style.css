@@ -24444,10 +24444,14 @@ hr.history {
 
 .swiper-area-wrapper .swiper-button-prev {
   left: -10px;
+height: 30px;
+width: 30px;
 }
 
 .swiper-area-wrapper .swiper-button-next {
   right: -10px;
+height: 30px;
+width: 30px;
 }
 
  .heder-one {
