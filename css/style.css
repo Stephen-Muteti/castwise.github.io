@@ -24472,6 +24472,9 @@ hr.history {
 	position: absolute;
 	right: 0px;
 }
+	.bg_banner-one {
+		border-radius: unset;
+	}
 
  .heder-one {
     margin-top: 0px;
