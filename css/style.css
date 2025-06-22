@@ -24459,6 +24459,8 @@ width: 30px;
     border-radius: unset;
   }
 
+.header--sticky.sticky {
+	border-radius: unset;
 }
 .rts-company-storyhear .timeline ul li {
   list-style-type: none;
