@@ -23553,6 +23553,7 @@ edit .quantity-edit button {
   justify-content: center;
   margin: auto;
   margin-bottom: 40px;
+	display: none;
 }
 .single-history-area .year-history span {
   font-size: 20px;
