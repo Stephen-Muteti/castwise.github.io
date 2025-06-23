@@ -20967,13 +20967,16 @@ font-weight: var(--s-bold);
     text-align: center;
   }
 }
-.copyright-area-one .right-nav ul {
+.copyright-area-one .right-nav p {
   margin: 0;
   padding: 0;
   display: flex;
   align-items: center;
   gap: 15px;
-  list-style: none;
+}
+
+.copyright-area-one .right-nav p .footer-designer{
+  color: var(--color-primary);
 }
 @media only screen and (max-width: 575px) {
   .copyright-area-one .right-nav ul {
