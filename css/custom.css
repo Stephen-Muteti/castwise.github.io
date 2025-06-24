@@ -59,4 +59,8 @@
 	.mg-top-5{
 		margin-top: 5px;
 	}
+
+	.single-history-area .body-history .icon {
+		margin-top: unset;
+	}
 }
