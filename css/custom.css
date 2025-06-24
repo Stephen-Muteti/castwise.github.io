@@ -45,11 +45,11 @@
 	text-align: center;
 }
 
-.single-fun-facts-area .title h5{
+.single-fun-facts-area h5.title {
   color: #141416 !important;
   font-size: 22px !important;
   margin-bottom: 12px !important;
-	font-weight: 600;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 575px) {
