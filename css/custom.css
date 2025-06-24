@@ -71,4 +71,12 @@
 	.single-history-area .body-history .icon {
 		margin-top: unset !important;
 	}
+
+	.mb-remove-mobile{
+		margin-bottom: unset !important;
+	}
+
+	.bg-cta-mobile{
+		background: #2F2F2F;
+	}
 }
