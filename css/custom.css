@@ -51,4 +51,8 @@
 	.hide-on-mobile{
 		display: none !important;
 	}
+
+	.light-bg-mobile{
+		background: #fff;
+	}
 }
