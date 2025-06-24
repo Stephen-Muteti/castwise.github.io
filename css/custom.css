@@ -26,3 +26,18 @@
     margin-right: unset !important;
     margin-left: unset !important;
   }
+.single-fun-facts-area {
+  position: unset !important;
+}
+@media only screen and (max-width: 575px) {
+	.body-history .thumbnail{
+		display: none !important;
+	}
+}
+
+.heder-one {
+	margin-right: unset !important;
+	margin-left: unset !important;
+	margin-top: 10px !important;
+  border-radius: unset !important;
+}
