@@ -61,6 +61,6 @@
 	}
 
 	.single-history-area .body-history .icon {
-		margin-top: unset;
+		margin-top: unset !important;
 	}
 }
