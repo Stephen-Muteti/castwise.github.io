@@ -45,9 +45,9 @@
 	text-align: center;
 }
 
-.single-fun-facts-area .icons .title {
-  color: #141416;
-  font-size: 22px;
+.single-fun-facts-area .title {
+  color: #141416 !important;
+  font-size: 22px !important;
   margin-bottom: 12px !important;
 }
 
