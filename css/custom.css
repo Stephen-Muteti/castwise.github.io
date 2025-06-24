@@ -5,3 +5,24 @@
 .dark-light{
 	background-color: #EFEBE7 !important;
 }
+
+.rts-about-company-area {
+	background-image: none !important;
+}
+
+.dark-theme-title-color{
+	color: #141416 !important;
+}
+
+.dark-theme-body-color{
+	color: #686868 !important;
+}
+
+.bg_banner-one::after {
+	background: rgb(248, 249, 250, 0.9) !important;
+}
+
+  .banner-swiper-area-one {
+    margin-right: unset !important;
+    margin-left: unset !important;
+  }
