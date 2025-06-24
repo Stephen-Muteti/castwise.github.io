@@ -79,4 +79,8 @@
 	.bg-cta-mobile{
 		background: #2F2F2F;
 	}
+
+	 .heder-one .header-two-container .header-main-wrapper .logo-area a {
+    max-width: 180px !important;
+  }
 }
