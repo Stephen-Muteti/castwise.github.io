@@ -53,6 +53,10 @@
 	}
 
 	.light-bg-mobile{
-		background: #fff;
+		background-color: #fff !important;
+	}
+
+	.mg-top-5{
+		margin-top: 5px;
 	}
 }
